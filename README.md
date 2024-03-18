@@ -1,6 +1,7 @@
 # Level28_Website
 
 ## Beschrijving  
+website voor bedrijf Level28 om mensen te helpen ai beter te begrijpen
 
 ## Pagina's
 * Home: Infor over het bedrijf
