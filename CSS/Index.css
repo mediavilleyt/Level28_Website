@@ -1,20 +1,19 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #262626;
-}
-
-header{
-    background-color: #111111;
-}
-
 main{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
-    margin-left: 20%;
-    margin-right: 20%;
-    height: 100%;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 30%; 
+}
+
+h2{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #242424;
+}
+
+p{
+    margin-left: 6%;
+    margin-right: 5%;
+    color: #242424;
 }
