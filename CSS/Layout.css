@@ -11,10 +11,12 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header h1{
     margin-left: 2%;
+    color: #ffffff;
 }
 
 header ul{
@@ -30,6 +32,6 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     font-size: 20px;
 }
