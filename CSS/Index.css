@@ -1,11 +1,12 @@
 html, body{
     height: 100%;
+    background-image: url("../OtherFiles/Images/Artboard21.png");
+    background-size: cover;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    background-color: white;
     margin-left: 5%;
     margin-right: 30%;
     height: 85%;
@@ -14,13 +15,13 @@ main{
 h2{
     margin-top: 5%;
     margin-left: 5%;
-    color: #242424;
+    color: #ffffff;
 }
 
 p{
     margin-left: 6%;
     margin-right: 5%;
-    color: #242424;
+    color: #ffffff;
 }
 
 footer{
