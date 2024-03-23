@@ -79,13 +79,12 @@ main{
 }
 
 .contactUs section{
-    background-color: #3D414C;
+    background-color: #2A2A2A;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    border-radius: 0.5em;
-    margin: 2%;
-    width: 96%;
+    width: 100%;
+    padding-top: 1%;
 }
 
 .contactUs section div{
@@ -94,35 +93,36 @@ main{
 
 .contactUs section section div h3{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     color: white;
     font-size: clamp(1.5em, 3vw, 3em);
     margin:0;
     padding: 0;
+    margin-left: 6.5%;
 }
 
 .contactUs section div p{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
-    background-color: white;
     padding: 2%;
     border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
 }
 
 .contactUs section div img{
-    width: 10%;
-    height: 10%;
+    height: 32px;
     border-radius: 0.5em;
     margin-left: 5%;
+    margin-right: 1%;
 }
 
 form{
     display: flex;
     flex-direction: column;
     margin: 2%;
-    background-color: #3D414C;
     border-radius: 0.5em;
     width: 100%;
 }
@@ -148,30 +148,32 @@ form label{
 
 form input{
     padding: 2%;
-    border-radius: 0.5em;
-    margin: 2%;
+    border-radius: 0.2em;
+    margin-right: 2%;
+    border: none;
 }
 
 form textarea{
-    border-radius: 0.5em;
-    margin-left: 2%;
+    border-radius: 0.2em;
     margin-right: 1%;
 }
 
 form button{
-    background-color: #3a3a3a;
+    background-color: #3a3a3a00;
     color: #ffffff;
     font-size: clamp(1em, 2vw, 2em);
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     margin-top: 2%;
-    width: 20%;
-    align-self: center;
-    border: none;
+    width: 30%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
     transition: 0.3s;
 }
 
 form button:hover{
-    background-color: #000000;
+    background-color: #ffffff;
+    color: #3D414C;
     cursor: pointer;
     transition: 0.3s;
 }
