@@ -18,6 +18,7 @@ header{
 header h1{
     margin-left: 2%;
     color: #000000;
+    font-size: clamp(1.5em, 3vw, 2em);
 }
 
 header ul{
@@ -35,7 +36,8 @@ header ul li a{
     text-decoration: none;
     font-weight: bold;
     color: #000000;
-    font-size: 20px;
+    text-wrap: nowrap;
+    font-size: clamp(1em, 2vw, 1.2em);
 }
 
 footer{
@@ -46,4 +48,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+p{
+    font-size: clamp(1em, 2vw, 2em);
 }
