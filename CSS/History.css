@@ -2,39 +2,34 @@ main{
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin-left: 30%;
-    margin-right: 5%; 
+    margin-left: 10%;
+    margin-right: 10%; 
 }
 
 h2{
-    color: #242424;
-    margin-left: 3%;
+    margin-left: 5%;
+    color: #000000;
     padding-top: 2%;
 }
 
 h3{
     color: #000000;
-    margin-left: 5%;
     padding-top: 2%;
 }
 
 p{
+    
     color: #000000;
-    margin-left: 7.5%;
     padding-bottom: 2%;
     margin-right: 10%;
 }
 
 article{
-    margin: 1%;
+   
     padding-bottom: 1%;
-    border-radius: 0.5em;
     background-color: rgb(203, 203, 203);
 }
 
 section{
-    background-color: rgb(87, 87, 87);
-    margin: 1%;
-    border-radius: 0.5em;
     margin-left: 5%;
 }

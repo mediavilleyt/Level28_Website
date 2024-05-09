@@ -2,8 +2,8 @@ main {
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 article div {
@@ -31,6 +31,6 @@ article {
 }
 img {
   border-radius: 0.5em;
-  aspect-ratio: 16/9;
-  width: 20%;
+  width: 50%;
+  height: 200px;
 }
