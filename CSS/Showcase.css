@@ -30,7 +30,7 @@ p {
   margin-left: 7.5%;
   padding-bottom: 2%;
   margin-right: 10%;
-  width: 80%;
+  max-width: 80%;
 }
 
 article {
@@ -40,47 +40,24 @@ article {
   background-color: rgb(203, 203, 203);
 }
 img {
-  border-radius: 0.5em;
-  width: 50%;
-  height: 200px;
+  border-radius: 3em;
+  max-width: 50%;
 }
-
-#menu {
-  height: 2em;
-  display: none;
-}
-@media (max-width: 426px) {
-  header {
-    top: 50%;
-  }
-  #menu {
-    display: block;
-    width: 2em;
-    margin-right: 1em;
-  }
-
-  #navbar {
-    display: none;
-  }
-  #navbar.active {
-    display: block;
-    position: absolute;
-    background-color: gray;
+@media (max-width: 582px) {
+  img {
     width: 100%;
-    margin: 0;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    object-fit: contain;
   }
-  #navbar ul {
-    display: flex;
-    flex: 1fr;
+  #github-copilot div {
     flex-direction: column;
     align-items: center;
-    text-align: start;
   }
-  #navbar ul li a {
-    font-size: 1.2em;
-    text-align: start;
+  #chat-gpt div {
+    flex-direction: column;
+    align-items: center;
+  }
+  #dall-e div {
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -56,7 +56,7 @@ p {
   height: 2em;
   display: none;
 }
-@media (max-width: 426px) {
+@media (max-width: 486px) {
   header {
     top: 50%;
   }
