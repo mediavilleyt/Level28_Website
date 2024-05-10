@@ -6,7 +6,17 @@ main {
   margin-right: 10%;
 }
 
-article div {
+#showcase {
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}
+#github-copilot div {
+  display: flex;
+}
+#chat-gpt div {
+  display: flex;
+}
+#dall-e div {
   display: flex;
 }
 
@@ -33,4 +43,44 @@ img {
   border-radius: 0.5em;
   width: 50%;
   height: 200px;
+}
+
+#menu {
+  height: 2em;
+  display: none;
+}
+@media (max-width: 426px) {
+  header {
+    top: 50%;
+  }
+  #menu {
+    display: block;
+    width: 2em;
+    margin-right: 1em;
+  }
+
+  #navbar {
+    display: none;
+  }
+  #navbar.active {
+    display: block;
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    margin: 0;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  #navbar ul {
+    display: flex;
+    flex: 1fr;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+  #navbar ul li a {
+    font-size: 1.2em;
+    text-align: start;
+  }
 }

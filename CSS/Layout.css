@@ -1,55 +1,93 @@
-body{
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #3b3b3b;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+header h1 {
+  margin-left: 2%;
+  color: #000000;
+  font-size: clamp(1.5em, 3vw, 2em);
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-right: 2%;
+}
+
+header ul li {
+  margin: 0 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  text-wrap: nowrap;
+  font-size: clamp(1em, 2vw, 1.2em);
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #242424;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: clamp(1em, 2vw, 2em);
+}
+#menu {
+  height: 2em;
+  display: none;
+}
+@media (max-width: 426px) {
+  header {
+    top: 50%;
+  }
+  #menu {
+    display: block;
+    width: 2em;
+    margin-right: 1em;
+  }
+
+  #navbar {
+    display: none;
+  }
+  #navbar.active {
+    display: block;
+    position: absolute;
+    background-color: gray;
+    width: 100%;
     margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #3b3b3b;
-
-}
-
-header{
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  #navbar ul {
     display: flex;
-    justify-content: space-between;
+    flex: 1fr;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-}
-
-header h1{
-    margin-left: 2%;
-    color: #000000;
-    font-size: clamp(1.5em, 3vw, 2em);
-}
-
-header ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin-right: 2%;
-}
-
-header ul li{
-    margin: 0 20px;
-}
-
-header ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #000000;
-    text-wrap: nowrap;
-    font-size: clamp(1em, 2vw, 1.2em);
-}
-
-footer{
-    width: 100%;
-    height: 50px;
-    background-color: #242424;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-p{
-    font-size: clamp(1em, 2vw, 2em);
+    text-align: start;
+  }
+  #navbar ul li a {
+    font-size: 1.2em;
+    text-align: start;
+  }
 }
