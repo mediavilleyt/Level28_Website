@@ -57,7 +57,7 @@ img {
   border-radius: 3em;
   max-width: 50%;
 }
-@media (max-width: 724px) {
+@media (max-width: 780px) {
   img {
     width: 100%;
     object-fit: contain;
