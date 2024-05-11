@@ -23,14 +23,28 @@ main {
 h1 {
   color: #242424;
   margin-left: 3%;
+  font-size: 2em;
+}
+h3 {
+  font-size: 2em;
 }
 
 p {
+  font-size: 1.5em;
   color: #000000;
   margin-left: 7.5%;
   padding-bottom: 2%;
   margin-right: 10%;
   max-width: 80%;
+}
+#chat-gpt-expansion p,
+li {
+  margin-left: 2%;
+}
+.lijst li {
+  font-size: 1.5em;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
 article {
@@ -43,7 +57,7 @@ img {
   border-radius: 3em;
   max-width: 50%;
 }
-@media (max-width: 582px) {
+@media (max-width: 724px) {
   img {
     width: 100%;
     object-fit: contain;
@@ -59,5 +73,18 @@ img {
   #dall-e div {
     flex-direction: column;
     align-items: center;
+  }
+
+  @media (max-width: 400px) {
+    .lijst li {
+      font-size: 1em;
+      margin-top: 4%;
+    }
+    p {
+      font-size: 1em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
   }
 }
