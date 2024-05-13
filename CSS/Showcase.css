@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: transparent;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -10,12 +10,15 @@ main {
   margin-top: 0.5em;
   margin-bottom: 0.3em;
 }
+
 #github-copilot div {
   display: flex;
 }
+
 #chat-gpt div {
   display: flex;
 }
+
 #dall-e div {
   display: flex;
 }
@@ -25,6 +28,7 @@ h1 {
   margin-left: 3%;
   font-size: 2em;
 }
+
 h3 {
   font-size: 2em;
 }
@@ -32,18 +36,19 @@ h3 {
 p {
   font-size: 1.5em;
   color: #000000;
-  margin-left: 7.5%;
+  margin-left: 2.5%;
   padding-bottom: 2%;
-  margin-right: 10%;
+  margin-right: 2.5%;
   max-width: 80%;
 }
+
 #chat-gpt-expansion p,
 li {
   margin-left: 2%;
 }
+
 .lijst li {
   font-size: 1.5em;
-  margin-top: 2%;
   margin-left: 2%;
 }
 
@@ -53,23 +58,28 @@ article {
   border-radius: 0.5em;
   background-color: rgb(203, 203, 203);
 }
+
 img {
-  border-radius: 3em;
-  max-width: 50%;
+  border-radius: 0.5em;
+  max-width: 30%;
 }
+
 @media (max-width: 780px) {
   img {
     width: 100%;
     object-fit: contain;
   }
+
   #github-copilot div {
     flex-direction: column;
     align-items: center;
   }
+
   #chat-gpt div {
     flex-direction: column;
     align-items: center;
   }
+
   #dall-e div {
     flex-direction: column;
     align-items: center;
@@ -80,9 +90,11 @@ img {
       font-size: 1em;
       margin-top: 4%;
     }
+
     p {
       font-size: 1em;
     }
+
     h3 {
       font-size: 1.5em;
     }
