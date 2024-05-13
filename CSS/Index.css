@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  background-image: url("../OtherFiles/Images/Artboard21.png");
+  background-image: url("../OtherFiles/Images/R.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13,7 +13,7 @@ main {
 
 .introHeader {
   text-align: center;
-  color: white;
+  color: black;
   font-size: clamp(2em, 4vw, 4em);
   margin-top: 10%;
   margin-bottom: 2%;
@@ -21,7 +21,7 @@ main {
 
 .introText {
   text-align: center;
-  color: white;
+  color: black;
   font-size: clamp(1em, 2vw, 2em);
   text-wrap: wrap;
   margin-left: 20%;
